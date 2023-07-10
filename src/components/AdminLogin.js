@@ -10,7 +10,7 @@ export default function AdminLogin() {
     }
     const submitHandler = (e) => {
         e.preventDefault();
-        axios.post('http://localhost:5000/api/auth/adminlogin', login).then(res => { navigate('/admindash') }).catch(err => alert(err.response.data));
+        axios.post('https://roomsyncbackend.onrender.com/api/auth/adminlogin', login).then(res => { navigate('/admindash') }).catch(err => alert(err.response.data));
     }
     return (
         <div className='login'>

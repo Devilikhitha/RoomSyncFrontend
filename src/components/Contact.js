@@ -22,7 +22,7 @@ export default function Contact() {
     <div class="contact-form">
       <h3>Send us a Message</h3>
       
-      <form action="http://localhost:5000/submitContactForm" method="POST">
+      <form action="https://roomsyncbackend.onrender.com/submitContactForm" method="POST">
         <div class="form-group">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" required/>

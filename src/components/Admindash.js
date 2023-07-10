@@ -4,10 +4,10 @@ import React, { useEffect, useState } from 'react'
 export default function Admindash() {
     const [users, setusers] = useState([]);
     const deleteHandler = (id) => {
-        axios.delete(`http://localhost:5000/api/user/${id}`).then(res => window.location.reload(false));
+        axios.delete(`https://roomsyncbackend.onrender.com/api/user/${id}`).then(res => window.location.reload(false));
     }
     useEffect(() => {
-        axios.get('http://localhost:5000/api/user').then(res => setusers(res.data));
+        axios.get('https://roomsyncbackend.onrender.com/api/user').then(res => setusers(res.data));
     }, [])
   return (
     <div>
