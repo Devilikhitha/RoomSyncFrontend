@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 
 
@@ -76,7 +77,7 @@ export default function Accommodation() {
         <li>Study areas and recreational spaces</li>
       </ul>
       <p>Price: $Z per month</p>
-      <a href="/bookform"><button class="room-btn">BOOK ROOM</button></a>
+      <Link to="/bookform"><button class="room-btn">BOOK ROOM</button></Link>
     </div></div>
     
    
