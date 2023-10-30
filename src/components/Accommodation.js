@@ -39,7 +39,7 @@ export default function Accommodation() {
         <li>Private bathroom</li>
         <li>High-speed Wi-Fi access</li>
       </ul>
-      <p>Price: $X per month</p>
+      <p>Price: Rs 999 per month</p>
       <a href="/bookform"><button class="room-btn">BOOK ROOM</button></a>
     </div></div>
     
@@ -57,7 +57,7 @@ export default function Accommodation() {
         <li>Shared bathroom</li>
         <li>High-speed Wi-Fi access</li>
       </ul>
-      <p>Price: $Y per month</p>
+      <p>Price: Rs 1999 per month</p>
       <a href="/bookform"><button class="room-btn">BOOK ROOM</button></a>
     </div></div>
     
@@ -75,7 +75,7 @@ export default function Accommodation() {
         <li>Shared bathrooms and communal kitchens</li>
         <li>Study areas and recreational spaces</li>
       </ul>
-      <p>Price: $Z per month</p>
+      <p>Price: Rs 2999 per month</p>
       <Link to="/bookform"><button class="room-btn">BOOK ROOM</button></Link>
     </div></div>
     
