@@ -40,7 +40,7 @@ export default function Accommodation() {
         <li>High-speed Wi-Fi access</li>
       </ul>
       <p>Price: Rs 999 per month</p>
-      <a href="/bookform"><button class="room-btn">BOOK ROOM</button></a>
+      <Link to="/bookform"><button class="room-btn">BOOK ROOM</button></Link>
     </div></div>
     
     <div class="accommodation-card d-flex flex-row justify-content-center">
@@ -58,7 +58,8 @@ export default function Accommodation() {
         <li>High-speed Wi-Fi access</li>
       </ul>
       <p>Price: Rs 1999 per month</p>
-      <a href="/bookform"><button class="room-btn">BOOK ROOM</button></a>
+     
+              <Link to="/bookform"><button class="room-btn">BOOK ROOM</button></Link>
     </div></div>
     
     <div class="accommodation-card d-flex flex-row justify-content-center">
