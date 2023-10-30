@@ -14,8 +14,7 @@ export default function Navigation() {
      
       <Link to="/about">About</Link>
       <Link to="/contact">Contact</Link>
-      <Link to="/login">Login</Link>
-      <Link to="/adminlogin">AdminLogin</Link>
+     
       <Link to="/bookform">Room</Link>
      
 
